@@ -49,6 +49,10 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                     <h2 className="font-headline text-2xl font-semibold mb-3">How It Plays a Crucial Role</h2>
                     <p className="text-lg leading-relaxed">{service.crucialRole}</p>
                   </div>
+                   <div>
+                    <h2 className="font-headline text-2xl font-semibold mb-3">How JCC Will Help You</h2>
+                    <p className="text-lg leading-relaxed">{service.howWeHelp}</p>
+                  </div>
                   <div>
                     <h2 className="font-headline text-2xl font-semibold mb-3">More Details</h2>
                     <p className="text-lg leading-relaxed">{service.details}</p>

@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 210 15% 97%; /* Light Silver */
-    --foreground: 30 10% 20%; /* Soft Alabaster - adjusted for readability */
+    --background: 210 17% 98%; /* Off-White */
+    --foreground: 220 10% 20%; /* Dark Charcoal */
     --card: 0 0% 100%;
-    --card-foreground: 30 10% 20%;
+    --card-foreground: 220 10% 20%;
     --popover: 0 0% 100%;
-    --popover-foreground: 30 10% 20%;
-    --primary: 45 70% 55%; /* Champagne Gold */
+    --popover-foreground: 220 10% 20%;
+    --primary: 45 65% 52%; /* Rich Gold */
     --primary-foreground: 45 50% 15%;
-    --secondary: 210 15% 92%; /* Silver */
+    --secondary: 210 15% 92%; /* Light Grey */
     --secondary-foreground: 220 10% 20%;
-    --muted: 210 15% 95%; /* Lighter Silver */
+    --muted: 210 15% 95%;
     --muted-foreground: 210 10% 40%;
-    --accent: 220 30% 30%; /* Regal Navy / Deep Obsidian */
+    --accent: 220 80% 21%; /* Deep Navy Blue */
     --accent-foreground: 0 0% 98%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 210 15% 88%;
     --input: 210 15% 88%;
-    --ring: 45 70% 55%;
+    --ring: 45 65% 52%;
     --radius: 0.5rem;
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;

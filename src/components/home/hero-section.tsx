@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section id="home" className="w-full py-20 md:py-32 lg:py-40">
       <div className="container mx-auto px-4 md:px-6 text-center">
         <FadeIn>
-          <h1 className="font-headline text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight bg-gradient-to-r from-primary via-amber-600 to-yellow-700 text-transparent bg-clip-text">
+          <h1 className="font-headline text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight bg-gradient-to-r from-amber-500 via-yellow-600 to-amber-700 text-transparent bg-clip-text">
             Forge Your Professional Destiny
           </h1>
         </FadeIn>
@@ -23,7 +23,7 @@ export default function HeroSection() {
         </FadeIn>
         <FadeIn delay={500}>
           <div className="mt-8">
-            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
+            <Button asChild size="lg" className="bg-gradient-to-r from-amber-500 to-yellow-700 text-primary-foreground hover:opacity-90 transition-opacity">
               <Link href="#services">Explore Our Services</Link>
             </Button>
           </div>

@@ -61,7 +61,7 @@ export default function ContactSection() {
               </div>
             </FadeIn>
             <FadeIn delay={400}>
-                <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+                <form className="space-y-4" onSubmit={(e) => e.preventDefault()} suppressHydrationWarning>
                     <Input placeholder="Your Name" aria-label="Your Name" />
                     <Input type="email" placeholder="Your Email" aria-label="Your Email" />
                     <Textarea placeholder="Your Message" rows={5} aria-label="Your Message" />

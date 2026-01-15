@@ -15,7 +15,7 @@ interface ServiceCardProps {
 function ServiceCard({ icon, title, description, slug }: ServiceCardProps) {
   return (
     <Link href={`/services/${slug}`} className="block h-full">
-      <Card className="h-full transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl bg-card">
+      <Card className="h-full transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl bg-card hover:bg-primary/10">
         <CardHeader className="flex flex-col items-center text-center gap-4 pt-8">
           {icon}
           <h3 className="font-headline text-2xl font-bold">{title}</h3>

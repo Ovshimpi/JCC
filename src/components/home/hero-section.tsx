@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section id="home" className="w-full py-20 md:py-32 lg:py-40">
       <div className="container mx-auto px-4 md:px-6 text-center">
         <FadeIn>
-          <h1 className="font-headline text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight">
+          <h1 className="font-headline text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight bg-gradient-to-r from-primary via-amber-600 to-yellow-700 text-transparent bg-clip-text">
             Forge Your Professional Destiny
           </h1>
         </FadeIn>

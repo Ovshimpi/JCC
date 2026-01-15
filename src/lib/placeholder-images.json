@@ -5,6 +5,42 @@
       "description": "A professional office meeting.",
       "imageUrl": "https://images.unsplash.com/photo-1553877522-43269d4ea984?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvZmZpY2UlMjBtZWV0aW5nfGVufDB8fHx8MTc2ODQxNjQwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "office meeting"
+    },
+    {
+      "id": "resume-writing",
+      "description": "A person writing on a notebook, symbolizing resume crafting.",
+      "imageUrl": "https://images.unsplash.com/photo-1517842645767-c6f90415ad90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3cml0aW5nJTIwcmVzdW1lfGVufDB8fHx8MTc2ODQxNjQwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "resume writing"
+    },
+    {
+      "id": "linkedin-profile",
+      "description": "A laptop showing a professional social network profile.",
+      "imageUrl": "https://images.unsplash.com/photo-1611944212129-2994461e4a42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaW5rZWRpbiUyMHByb2ZpbGV8ZW58MHx8fHwxNzY4NDE2NDAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "linkedin profile"
+    },
+    {
+      "id": "interview-prep",
+      "description": "Two people in a formal discussion, simulating an interview.",
+      "imageUrl": "https://images.unsplash.com/photo-1573497491208-6b1acb260507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbnRlcnZpZXclMjBwcmVwfGVufDB8fHx8MTc2ODQxNjQwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "interview prep"
+    },
+    {
+      "id": "campus-to-corporate",
+      "description": "A recent graduate looking at a city skyline, symbolizing career transition.",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW1wdXMlMjB0byUyMGNvcnBvcmF0ZXxlbnwwfHx8fDE3Njg0MTY0MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "career transition"
+    },
+    {
+      "id": "presentation-skills",
+      "description": "A person giving a presentation to an audience.",
+      "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcmVzZW50YXRpb24lMjBza2lsbHN8ZW58MHx8fHwxNzY4NDE2NDAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "presentation skills"
+    },
+    {
+      "id": "email-writing",
+      "description": "A person composing an email on a laptop.",
+      "imageUrl": "https://images.unsplash.com/photo-1586075010923-2dd4570fb339?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbWFpbCUyMHdyaXRpbmd8ZW58MHx8fHwxNzY4NDE2NDAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "email writing"
     }
   ]
 }

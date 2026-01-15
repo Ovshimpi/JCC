@@ -8,15 +8,20 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 md:px-6 text-center">
         <FadeIn>
           <h1 className="font-headline text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight">
-            Unlock Your Career Potential
+            Forge Your Professional Destiny
           </h1>
         </FadeIn>
         <FadeIn delay={200}>
           <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-foreground/80">
-            JCC Consulting offers expert guidance to navigate your career path with confidence. From resume crafting to mastering interviews, we're here to help you succeed.
+            At JCC Consulting, we sculpt career trajectories. We provide the master tools and insider knowledge to navigate your professional journey with precision and confidence.
           </p>
         </FadeIn>
         <FadeIn delay={400}>
+          <blockquote className="mt-8 max-w-2xl mx-auto italic text-foreground/70">
+            "The future belongs to those who believe in the beauty of their dreams."
+          </blockquote>
+        </FadeIn>
+        <FadeIn delay={500}>
           <div className="mt-8">
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
               <Link href="#services">Explore Our Services</Link>

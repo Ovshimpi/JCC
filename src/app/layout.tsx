@@ -4,8 +4,8 @@ import { Toaster } from '@/components/ui/toaster';
 import { ThemeProvider } from '@/components/theme-provider';
 
 export const metadata: Metadata = {
-  title: 'JCC Consulting Showcase',
-  description: 'Professional career consultancy services to elevate your career.',
+  title: 'JCC Consulting: Chart Your Course to Career Excellence',
+  description: 'Forge your path to success with JCC Consulting. We provide elite career coaching, resume mastery, and interview preparation to unlock your professional potential.',
 };
 
 export default function RootLayout({

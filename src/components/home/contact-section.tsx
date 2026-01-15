@@ -61,11 +61,11 @@ export default function ContactSection() {
               </div>
             </FadeIn>
             <FadeIn delay={400}>
-                <form className="space-y-4" onSubmit={(e) => e.preventDefault()} suppressHydrationWarning>
-                    <Input placeholder="Your Name" aria-label="Your Name" />
-                    <Input type="email" placeholder="Your Email" aria-label="Your Email" />
-                    <Textarea placeholder="Your Message" rows={5} aria-label="Your Message" />
-                    <Button type="submit" size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90">Send Message</Button>
+                <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+                    <Input placeholder="Your Name" aria-label="Your Name" suppressHydrationWarning />
+                    <Input type="email" placeholder="Your Email" aria-label="Your Email" suppressHydrationWarning />
+                    <Textarea placeholder="Your Message" rows={5} aria-label="Your Message" suppressHydrationWarning />
+                    <Button type="submit" size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90" suppressHydrationWarning>Send Message</Button>
                 </form>
             </FadeIn>
         </div>

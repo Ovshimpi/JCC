@@ -2,45 +2,45 @@
   "placeholderImages": [
     {
       "id": "office-meeting",
-      "description": "A professional office meeting.",
-      "imageUrl": "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBtZWV0aW5nfGVufDB8fHx8MTc2ODQxNjQwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "office meeting"
+      "description": "A grand boardroom with a large window overlooking a city.",
+      "imageUrl": "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3J0Zm9saW8lMjBsdXh1cnl8ZW58MHx8fHwxNzY4NTMwNDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury office"
     },
     {
       "id": "resume-writing",
-      "description": "A person writing on a notebook, symbolizing resume crafting.",
-      "imageUrl": "https://images.unsplash.com/photo-1761322572550-967ea8c0bfd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZXN1bWUlMjB3cml0aW5nfGVufDB8fHx8MTc2ODQ0ODI2OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "resume writing"
+      "description": "A stylish flat lay of a classic fountain pen, an elegant journal, and a pair of spectacles on a dark, textured surface, evoking a sense of premium quality and thoughtful composition.",
+      "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyb3lhbCUyMHdyaXRpbmd8ZW58MHx8fHwxNzY4NTMwNDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elegant writing"
     },
     {
       "id": "linkedin-profile",
-      "description": "A laptop showing a professional social network profile.",
-      "imageUrl": "https://images.unsplash.com/photo-1746608942909-af573f7cffb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsaW5rZWRpbiUyMHByb2ZpbGV8ZW58MHx8fHwxNzY4NDQ4MjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "linkedin profile"
+      "description": "A close-up of a person in a sharp suit using a modern, slim laptop in a brightly lit, upscale café, representing a blend of professional ambition and contemporary work culture.",
+      "imageUrl": "https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcm9mZXNzaW9uYWwlMjBzb2NpYWwlMjBuZXR3b3JrfGVufDB8fHx8MTc2ODUzMDQwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional networking"
     },
     {
       "id": "interview-prep",
-      "description": "Two people in a formal discussion, simulating an interview.",
-      "imageUrl": "https://images.unsplash.com/photo-1714668105847-06ba38893401?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbnRlcnZpZXclMjBwcmVwfGVufDB8fHx8MTc2ODQ0ODI2OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "interview prep"
+      "description": "Two individuals in sophisticated business attire engaged in a focused one-on-one conversation inside a modern, architecturally designed office with minimalist decor.",
+      "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbnRlcnZpZXclMjBwcmVwYXJhdGlvbnxlbnwwfHx8fDE3Njg1MzA0MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "interview preparation"
     },
     {
       "id": "campus-to-corporate",
-      "description": "A recent graduate looking at a city skyline, symbolizing career transition.",
-      "imageUrl": "https://images.unsplash.com/photo-1571319624513-d4a35dca5770?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJlZXIlMjB0cmFuc2l0aW9ufGVufDB8fHx8MTc2ODQ0ODI2OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "career transition"
+      "description": "A montage showing a split image of a historic, ivy-covered university building and a sleek, glass-fronted skyscraper, symbolizing the journey from academic life to a high-powered corporate career.",
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW1wdXMlMjB0byUyMGNvcnBvcmF0ZXxlbnwwfHx8fDE3Njg1MzA0MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "career journey"
     },
     {
       "id": "presentation-skills",
-      "description": "A person giving a presentation to an audience.",
-      "imageUrl": "https://images.unsplash.com/photo-1758691736490-03d39c292d7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcmVzZW50YXRpb24lMjBza2lsbHN8ZW58MHx8fHwxNzY4NDQ4MjcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "presentation skills"
+      "description": "A confident speaker addressing a large, engaged audience in a state-of-the-art auditorium, with dynamic lighting and a large screen in the background.",
+      "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcmVzZW50YXRpb24lMjBza2lsbHN8ZW58MHx8fHwxNzY4NTMwNDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "public speaking"
     },
     {
       "id": "email-writing",
-      "description": "A person composing an email on a laptop.",
-      "imageUrl": "https://images.unsplash.com/photo-1586957960362-65815d739527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlbWFpbCUyMHdyaXRpbmd8ZW58MHx8fHwxNzY4NDQ4MjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "email writing"
+      "description": "An overhead shot of a person's hands typing on a sleek, minimalist keyboard, with a cup of artisanal coffee and a stylish notebook nearby on a clean, wooden desk.",
+      "imageUrl": "https://images.unsplash.com/photo-1516387938699-a93567ec168e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbWFpbCUyMHdyaXRpbmd8ZW58MHx8fHwxNzY4NTMwNDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional writing"
     }
   ]
 }

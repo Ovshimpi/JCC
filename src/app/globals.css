@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 40 25% 97%; /* soft ivory */
+    --background: 210 15% 97%; /* Light Silver */
     --foreground: 30 10% 20%; /* Soft Alabaster - adjusted for readability */
     --card: 0 0% 100%;
     --card-foreground: 30 10% 20%;
@@ -12,9 +12,9 @@
     --popover-foreground: 30 10% 20%;
     --primary: 45 70% 55%; /* Champagne Gold */
     --primary-foreground: 45 50% 15%;
-    --secondary: 210 15% 95%; /* Cloud Grey */
+    --secondary: 210 15% 92%; /* Silver */
     --secondary-foreground: 220 10% 20%;
-    --muted: 210 15% 95%;
+    --muted: 210 15% 95%; /* Lighter Silver */
     --muted-foreground: 210 10% 40%;
     --accent: 220 30% 30%; /* Regal Navy / Deep Obsidian */
     --accent-foreground: 0 0% 98%;

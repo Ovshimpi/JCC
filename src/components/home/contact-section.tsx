@@ -65,7 +65,7 @@ export default function ContactSection() {
                     <Input placeholder="Your Name" aria-label="Your Name" suppressHydrationWarning />
                     <Input type="email" placeholder="Your Email" aria-label="Your Email" suppressHydrationWarning />
                     <Textarea placeholder="Your Message" rows={5} aria-label="Your Message" suppressHydrationWarning />
-                    <Button type="submit" size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90" suppressHydrationWarning>Send Message</Button>
+                    <Button type="submit" size="lg" className="w-full bg-gradient-to-r from-amber-500 to-yellow-700 text-primary-foreground hover:opacity-90 transition-opacity" suppressHydrationWarning>Send Message</Button>
                 </form>
             </FadeIn>
         </div>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { ThemeProvider } from '@/components/theme-provider';
+import WhatsappButton from '@/components/layout/whatsapp-button';
 
 export const metadata: Metadata = {
   title: 'JCC Consulting: Chart Your Course to Career Excellence',
@@ -31,6 +32,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <WhatsappButton phoneNumber="+1234567890" />
           <Toaster />
         </ThemeProvider>
       </body>

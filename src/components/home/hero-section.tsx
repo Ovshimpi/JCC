@@ -23,7 +23,7 @@ export default function HeroSection() {
         </FadeIn>
         <FadeIn delay={500}>
           <div className="mt-8">
-            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
+            <Button asChild size="lg">
               <Link href="#services">Explore Our Services</Link>
             </Button>
           </div>

@@ -32,7 +32,7 @@ export default function Footer() {
                 JCC
               </span>
               <span className="text-lg text-foreground/90 font-body">
-                Consulting
+                Career Consultancy
               </span>
             </Link>
             <p className="text-sm text-foreground/70 mt-2">Elevating Careers, One Professional at a Time.</p>
@@ -53,7 +53,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-border pt-4 text-center text-sm text-foreground/70">
-          <p>&copy; {new Date().getFullYear()} JCC Consulting. All rights reserved.</p>
+          <p>&copy; 2026 JCC Career Consultancy. All rights reserved.</p>
         </div>
       </div>
     </footer>

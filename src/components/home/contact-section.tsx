@@ -29,8 +29,8 @@ export default function ContactSection() {
                   <div>
                     <h3 className="text-xl font-semibold font-body">Email</h3>
                     <p className="text-foreground/80">Send us an email and we'll get back to you.</p>
-                    <a href="mailto:contact@jccconsulting.com" className="text-primary hover:underline">
-                      contact@jccconsulting.com
+                    <a href="mailto:joharicareercounsultancy@gmail.com" className="text-primary hover:underline">
+                      joharicareercounsultancy@gmail.com
                     </a>
                   </div>
                 </div>
@@ -41,8 +41,8 @@ export default function ContactSection() {
                   <div>
                     <h3 className="text-xl font-semibold font-body">Phone</h3>
                     <p className="text-foreground/80">Give us a call during business hours.</p>
-                    <a href="tel:+1234567890" className="text-primary hover:underline">
-                      +1 (234) 567-890
+                    <a href="tel:+916232586854" className="text-primary hover:underline">
+                      +91 6232586854
                     </a>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold font-body">Office</h3>
-                    <p className="text-foreground/80">123 Career Path, Success City, 10101</p>
+                    <p className="text-foreground/80">182/3, magarmuha, ujjain, madhya pradesh, 456010</p>
                     <a href="#" className="text-primary hover:underline" onClick={(e) => e.preventDefault()}>
                       Get Directions
                     </a>

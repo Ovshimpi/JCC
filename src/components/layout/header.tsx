@@ -20,7 +20,7 @@ export default function Header() {
             JCC
           </span>
           <span className="text-xl text-foreground/80 font-body">
-            Consulting
+            Career Consultancy
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
@@ -49,7 +49,7 @@ export default function Header() {
               <div className="p-4">
                 <Link href="/" className="flex items-baseline gap-2 mb-8" prefetch={false}>
                   <span className="font-headline text-2xl font-bold text-primary">JCC</span>
-                  <span className="text-lg text-foreground/80 font-body">Consulting</span>
+                  <span className="text-lg text-foreground/80 font-body">Career Consultancy</span>
                 </Link>
                 <nav className="grid gap-6 text-lg font-medium">
                   {navLinks.map((link) => (

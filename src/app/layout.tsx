@@ -5,8 +5,8 @@ import { ThemeProvider } from '@/components/theme-provider';
 import WhatsappButton from '@/components/layout/whatsapp-button';
 
 export const metadata: Metadata = {
-  title: 'JCC Consulting: Chart Your Course to Career Excellence',
-  description: 'Forge your path to success with JCC Consulting. We provide elite career coaching, resume mastery, and interview preparation to unlock your professional potential.',
+  title: 'JCC Career Consultancy: Chart Your Course to Career Excellence',
+  description: 'Forge your path to success with JCC Career Consultancy. We provide elite career coaching, resume mastery, and interview preparation to unlock your professional potential.',
 };
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <WhatsappButton phoneNumber="+1234567890" />
+          <WhatsappButton phoneNumber="+916232586854" />
           <Toaster />
         </ThemeProvider>
       </body>

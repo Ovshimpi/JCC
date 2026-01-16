@@ -11,7 +11,7 @@ export default function AboutSection() {
       <div className="container mx-auto px-4 md:px-6">
         <FadeIn>
           <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl lg:text-5xl font-bold">About JCC Consulting</h2>
+            <h2 className="font-headline text-3xl md:text-4xl lg:text-5xl font-bold">About JCC Career Consultancy</h2>
             <p className="mt-4 max-w-3xl mx-auto text-lg text-foreground/80">
               Your trusted partner in career development.
             </p>
@@ -22,7 +22,7 @@ export default function AboutSection() {
             <FadeIn delay={200} direction="right" className="md:col-span-3">
               <div className="space-y-4 text-foreground/90">
                 <p>
-                  At JCC Consulting, we are passionate about helping professionals achieve their career aspirations. Founded on the principle that everyone deserves a fulfilling career, we've dedicated ourselves to providing top-tier, personalized career services.
+                  At JCC Career Consultancy, we are passionate about helping professionals achieve their career aspirations. Founded on the principle that everyone deserves a fulfilling career, we've dedicated ourselves to providing top-tier, personalized career services.
                 </p>
                 <p>
                   Our team of experienced consultants brings a wealth of industry knowledge from various sectors. We understand the nuances of the modern job market and what it takes to stand out.

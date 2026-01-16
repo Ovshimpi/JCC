@@ -13,7 +13,7 @@ export default function HeroSection() {
         </FadeIn>
         <FadeIn delay={200}>
           <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-foreground/80">
-            At JCC Consulting, we sculpt career trajectories. We provide the master tools and insider knowledge to navigate your professional journey with precision and confidence.
+            At JCC Career Consultancy, we sculpt career trajectories. We provide the master tools and insider knowledge to navigate your professional journey with precision and confidence.
           </p>
         </FadeIn>
         <FadeIn delay={400}>

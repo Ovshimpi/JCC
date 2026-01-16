@@ -7,8 +7,11 @@ import ScrollToTopButton from '@/components/layout/scroll-to-top-button';
 import CallButton from '@/components/layout/call-button';
 
 export const metadata: Metadata = {
-  title: 'JCC Career Consultancy: Chart Your Course to Career Excellence',
+  title: 'JCC Career Consultancy',
   description: 'Forge your path to success with JCC Career Consultancy. We provide elite career coaching, resume mastery, and interview preparation to unlock your professional potential.',
+  icons: {
+    icon: 'data:;base64,iVBORw0KGgo=',
+  },
 };
 
 export default function RootLayout({

@@ -61,7 +61,7 @@ export default function ContactSection() {
                     <h3 className="text-xl font-semibold font-body">Phone</h3>
                     <p className="text-foreground/80">Give us a call or send a message.</p>
                     <a href="tel:+916232586854" className="text-primary hover:underline block mt-2">
-                      +91 6232586854 (Calling)
+                      +91 6232586854 <span className="text-foreground">(Calling)</span>
                     </a>
                     <a
                       href="https://wa.me/917987376854"
@@ -69,7 +69,7 @@ export default function ContactSection() {
                       rel="noopener noreferrer"
                       className="text-primary hover:underline block mt-1"
                     >
-                      +91 7987376854 (WhatsApp)
+                      +91 7987376854 <span className="text-foreground">(WhatsApp)</span>
                     </a>
                   </div>
                 </div>

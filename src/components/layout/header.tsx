@@ -16,7 +16,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-baseline gap-2" prefetch={false}>
-          <span className="font-headline text-3xl font-bold text-primary">
+          <span className="font-headline text-3xl font-bold bg-gradient-to-r from-amber-500 via-yellow-600 to-amber-700 text-transparent bg-clip-text">
             JCC
           </span>
           <span className="text-xl text-foreground/80 font-body">
@@ -49,7 +49,7 @@ export default function Header() {
               <div className="p-4">
                 <SheetClose asChild>
                   <Link href="/" className="flex items-baseline gap-2 mb-8" prefetch={false}>
-                    <span className="font-headline text-2xl font-bold text-primary">JCC</span>
+                    <span className="font-headline text-2xl font-bold bg-gradient-to-r from-amber-500 via-yellow-600 to-amber-700 text-transparent bg-clip-text">JCC</span>
                     <span className="text-lg text-foreground/80 font-body">Career Consultancy</span>
                   </Link>
                 </SheetClose>

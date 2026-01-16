@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-center md:text-left">
             <Link href="/" className="flex items-baseline gap-2" prefetch={false}>
-              <span className="font-headline text-2xl font-bold text-primary">
+              <span className="font-headline text-2xl font-bold bg-gradient-to-r from-amber-500 via-yellow-600 to-amber-700 text-transparent bg-clip-text">
                 JCC
               </span>
               <span className="text-lg text-foreground/90 font-body">

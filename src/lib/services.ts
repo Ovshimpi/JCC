@@ -58,6 +58,11 @@ export const services: Service[] = [
     faq: [
       { question: 'What is an ATS and why is it important?', answer: 'An Applicant Tracking System (ATS) is software used by recruiters to scan resumes for keywords. We optimize your resume to ensure it passes these automated screenings.' },
       { question: 'How long does the resume writing process take?', answer: 'Typically, the entire process takes between 5-7 business days, including consultation, drafting, and revisions, to ensure a high-quality result.' },
+      { question: 'Can you work with my existing resume?', answer: 'Yes, we can either improve your existing resume or start from scratch, depending on what\'s needed to best showcase your profile.' },
+      { question: 'Do you have experience with my specific industry?', answer: 'Our consultants have diverse backgrounds across many industries. We match you with a consultant who understands your field and its specific hiring practices.' },
+      { question: 'What if I\'m not happy with the resume?', answer: 'Your satisfaction is our priority. We include revision rounds to ensure you are completely happy with the final product.' },
+      { question: 'Do you also write cover letters?', answer: 'Yes, our service includes a tailored and editable cover letter template designed to complement your new resume.' },
+      { question: 'Is this service for all career levels?', answer: 'Absolutely. We work with everyone from recent graduates to senior executives, tailoring the resume to the appropriate level of experience.' }
     ],
   },
   {
@@ -88,6 +93,11 @@ export const services: Service[] = [
     faq: [
         { question: 'Do I need to give you my LinkedIn password?', answer: 'No, we do not require your login credentials. We provide you with the optimized content in a document, which you can then copy and paste into your profile.' },
         { question: 'How will this help me get a job?', answer: 'An optimized profile ranks higher in recruiter searches, clearly communicates your value, and establishes your credibility, significantly increasing your inbound opportunities.' },
+        { question: 'How long does it take to see results?', answer: 'You will have a fully optimized profile within a few days, but building a strong network and visibility takes ongoing effort. We\'ll give you the strategy to see results over time.' },
+        { question: 'Will you create a new profile for me?', answer: 'We work with your existing LinkedIn profile to enhance and optimize it. If you don\'t have one, we can guide you in setting one up.' },
+        { question: 'What is a LinkedIn banner and why is it important?', answer: 'The banner is the background image at the top of your profile. A custom banner helps establish your personal brand and makes your profile stand out visually.' },
+        { question: 'Do you provide guidance on what to post?', answer: 'Yes, our strategy session includes tips on the type of content you can share to engage your network and establish your expertise.' },
+        { question: 'Can you help me get more recommendations?', answer: 'We provide you with effective strategies and templates for requesting meaningful recommendations from your connections.' }
     ],
   },
   {
@@ -118,6 +128,11 @@ export const services: Service[] = [
     faq: [
         { question: 'What kind of interviews do you prepare for?', answer: 'We cover all types, including behavioral, technical, case study, and panel interviews across a wide range of industries.' },
         { question: 'Are the sessions recorded?', answer: 'Yes, with your permission, we can record the sessions so you can review your performance and track your improvement.' },
+        { question: 'How many sessions will I need?', answer: 'This varies per individual. Most clients find 2-3 sessions are sufficient to feel confident and prepared, but we can tailor a package to your specific needs.' },
+        { question: 'What is the STAR method?', answer: 'The STAR (Situation, Task, Action, Result) method is a structured way to answer behavioral interview questions by providing concrete examples of your past performance.' },
+        { question: 'Do you provide feedback on body language?', answer: 'Yes, our feedback covers all aspects of your presentation, including non-verbal cues like body language and tone of voice, which are crucial for making a good impression.' },
+        { question: 'Can you help with salary negotiation questions?', answer: 'While our primary focus is on the interview itself, we can certainly provide general guidance and resources for approaching salary negotiation.' },
+        { question: 'What should I do after the interview?', answer: 'We provide best practices for post-interview follow-up, including how to write a thank-you note that reinforces your interest in the role.' }
     ],
   },
   {
@@ -148,6 +163,11 @@ export const services: Service[] = [
     faq: [
         { question: 'Is this for students or recent graduates?', answer: 'This program is ideal for final-year students, recent graduates, and professionals in the first year of their corporate career.' },
         { question: 'Is the mentorship ongoing?', answer: 'The formal mentorship part of the program lasts for your first 90 days, a critical period for setting a positive trajectory in a new role.' },
+        { question: 'What if I don\'t know what career path I want?', answer: 'This program can help you gain clarity. By understanding the corporate world better, you\'ll be more equipped to identify roles and industries that align with your skills and interests.' },
+        { question: 'Do you help with job placement?', answer: 'While we are not a recruitment agency, the skills you gain in this program will significantly improve your employability and job-seeking effectiveness.' },
+        { question: 'What are "unwritten rules" of the corporate world?', answer: 'These are unspoken expectations around communication, networking, getting visibility for your work, and navigating relationships with colleagues and managers.' },
+        { question: 'How is the mentor selected?', answer: 'We match you with a mentor based on your career interests and their industry experience to ensure the guidance you receive is relevant and valuable.' },
+        { question: 'Is this program done in a group or one-on-one?', answer: 'It\'s a hybrid model. We use group workshops for core skill-building and one-on-one sessions for personalized coaching and mentorship.' }
     ],
   },
   {
@@ -178,6 +198,11 @@ export const services: Service[] = [
     faq: [
         { question: 'Can you help with a specific upcoming presentation?', answer: 'Absolutely. We can tailor our coaching to help you prepare for a specific high-stakes presentation.' },
         { question: 'I have a fear of public speaking. Can you help?', answer: 'Yes. A core part of our coaching is providing techniques and building confidence to manage and overcome speaking anxiety.' },
+        { question: 'Do you help with slide design?', answer: 'Yes, we guide you on the principles of effective visual design for presentations to ensure your slides are clean, professional, and enhance your message.' },
+        { question: 'What\'s more important: content or delivery?', answer: 'Both are equally important. A great message can be lost with poor delivery, and great delivery can\'t save poor content. We work on both.' },
+        { question: 'How do I engage a virtual audience?', answer: 'We provide specific techniques for keeping a remote audience engaged, such as using interactive elements, modulating your voice, and making effective use of your webcam.' },
+        { question: 'How long are the coaching sessions?', answer: 'A typical session is 60-90 minutes, but we can be flexible based on your needs and the complexity of the presentation you\'re preparing.' },
+        { question: 'Will I get to practice?', answer: 'Practice is a core component of our coaching. You will have ample opportunity to deliver parts of your presentation and receive real-time feedback.' }
     ],
   },
   {
@@ -208,6 +233,11 @@ export const services: Service[] = [
     faq: [
         { question: 'Is this for native English speakers only?', answer: 'Not at all. This workshop is beneficial for everyone, including non-native speakers who want to communicate more confidently and professionally in English.' },
         { question: 'How can I get my team to write better emails?', answer: 'We offer group workshops for corporate teams, which can be customized to address your organization\'s specific communication challenges.' },
+        { question: 'What\'s the biggest mistake people make in business emails?', answer: 'One of the most common mistakes is being too verbose. Clear and concise writing is respected and more likely to be read and acted upon. We teach you how to get to the point effectively.' },
+        { question: 'Can you help with managing a large volume of emails?', answer: 'Yes, our workshop includes strategies for effective inbox management and prioritization to help you stay on top of your communications.' },
+        { question: 'What is the appropriate tone for a professional email?', answer: 'The tone can vary depending on the recipient and context, but it should always be respectful. We\'ll teach you how to adjust your tone to be formal or more familiar when appropriate.' },
+        { question: 'Are email subject lines really that important?', answer: 'Absolutely. The subject line is your first impression and often determines whether your email gets opened. We\'ll show you how to write subject lines that are clear and compelling.' },
+        { question: 'Do I get to keep the templates?', answer: 'Yes, you will receive a library of professional email templates that you can adapt and use throughout your career.' }
     ],
   },
 ];

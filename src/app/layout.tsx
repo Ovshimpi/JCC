@@ -33,7 +33,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <WhatsappButton phoneNumber="+916232586854" />
+          <WhatsappButton phoneNumber="+91 6232586854" />
           <ScrollToTopButton />
           <Toaster />
         </ThemeProvider>

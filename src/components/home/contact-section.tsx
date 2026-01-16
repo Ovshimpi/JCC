@@ -41,8 +41,8 @@ export default function ContactSection() {
                   <div>
                     <h3 className="text-xl font-semibold font-body">Phone</h3>
                     <p className="text-foreground/80">Give us a call during business hours.</p>
-                    <a href="tel:6232586854" className="text-primary hover:underline">
-                      6232586854
+                    <a href="tel:7987376854" className="text-primary hover:underline">
+                      7987376854
                     </a>
                   </div>
                 </div>

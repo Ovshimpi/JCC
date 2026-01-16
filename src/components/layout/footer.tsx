@@ -47,7 +47,7 @@ export default function Footer() {
             <Link href="#" aria-label="LinkedIn" prefetch={false}>
               <Linkedin className="h-6 w-6 text-foreground/80 hover:text-[#0A66C2] transition-colors" />
             </Link>
-            <Link href="https://wa.me/6232586854" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" prefetch={false}>
+            <Link href="https://wa.me/7987376854" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" prefetch={false}>
               <WhatsappIcon className="h-6 w-6 text-foreground/80 hover:text-[#25D366] transition-colors" />
             </Link>
           </div>

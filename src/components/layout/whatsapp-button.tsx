@@ -29,10 +29,10 @@ export default function WhatsappButton({ phoneNumber }: { phoneNumber: string })
       href={whatsappLink}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:bg-[#1DA851] transition-colors flex items-center justify-center"
+      className="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-3 rounded-full shadow-lg hover:bg-[#1DA851] transition-colors flex items-center justify-center"
       aria-label="Contact us on WhatsApp"
     >
-      <WhatsappIcon className="h-8 w-8" />
+      <WhatsappIcon className="h-6 w-6" />
     </Link>
   );
 }

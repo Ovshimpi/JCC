@@ -34,13 +34,13 @@ export default function ScrollToTopButton() {
       size="icon"
       onClick={scrollToTop}
       className={cn(
-        'fixed bottom-8 left-8 z-50 rounded-full transition-opacity duration-300',
+        'fixed bottom-8 left-8 z-50 rounded-full h-9 w-9 transition-opacity duration-300',
         isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
       )}
       aria-label="Scroll to top"
       suppressHydrationWarning
     >
-      <ArrowUp className="h-6 w-6" />
+      <ArrowUp className="h-4 w-4" />
     </Button>
   );
 }

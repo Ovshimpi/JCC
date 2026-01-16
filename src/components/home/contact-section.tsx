@@ -5,8 +5,27 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, MapPin, Phone } from "lucide-react";
+import { useState, type FormEvent } from "react";
 
 export default function ContactSection() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e: FormEvent) => {
+    e.preventDefault();
+    const whatsappNumber = "+917987376854";
+    const greeting = `Hello JCC, this is ${name}.`;
+    const emailInfo = email ? `\nMy email is ${email}.` : "";
+    const body = `\n\nMy message:\n${message}`;
+
+    const whatsappMessage = `${greeting}${emailInfo}${body}`;
+    
+    const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
+    
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <section id="contact" className="w-full py-20 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
@@ -69,10 +88,32 @@ export default function ContactSection() {
               </div>
             </FadeIn>
             <FadeIn delay={400}>
-                <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-                    <Input placeholder="Your Name" aria-label="Your Name" suppressHydrationWarning />
-                    <Input type="email" placeholder="Your Email" aria-label="Your Email" suppressHydrationWarning />
-                    <Textarea placeholder="Your Message" rows={5} aria-label="Your Message" suppressHydrationWarning />
+                <form className="space-y-4" onSubmit={handleSubmit}>
+                    <Input 
+                      placeholder="Your Name" 
+                      aria-label="Your Name" 
+                      suppressHydrationWarning
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      required
+                    />
+                    <Input 
+                      type="email" 
+                      placeholder="Your Email (Optional)" 
+                      aria-label="Your Email" 
+                      suppressHydrationWarning
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
+                    <Textarea 
+                      placeholder="Your Message" 
+                      rows={5} 
+                      aria-label="Your Message" 
+                      suppressHydrationWarning
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
+                      required
+                    />
                     <Button type="submit" size="lg" className="w-full bg-gradient-to-r from-amber-500 to-yellow-700 text-primary-foreground hover:opacity-90 transition-opacity" suppressHydrationWarning>Send Message</Button>
                 </form>
             </FadeIn>

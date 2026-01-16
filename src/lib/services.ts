@@ -9,7 +9,7 @@ export interface Service {
   crucialRole: string;
   howWeHelp: string;
   details: string;
-  image: ImagePlaceholder;
+  images: ImagePlaceholder[];
   deliverables: string[];
   process: {
     step: number;
@@ -22,6 +22,13 @@ export interface Service {
   }[];
 }
 
+const galleryImages = [
+    PlaceHolderImages.find(p => p.id === 'service-gallery-1'),
+    PlaceHolderImages.find(p => p.id === 'service-gallery-2'),
+    PlaceHolderImages.find(p => p.id === 'service-gallery-3'),
+    PlaceHolderImages.find(p => p.id === 'service-gallery-4'),
+].filter(p => p) as ImagePlaceholder[];
+
 export const services: Service[] = [
   {
     slug: 'resume-writing',
@@ -31,7 +38,11 @@ export const services: Service[] = [
     crucialRole: 'It plays a crucial role by summarizing your skills, experience, and accomplishments in a concise and impactful way, convincing recruiters that you are the right fit for the job.',
     howWeHelp: 'JCC will pair you with an expert consultant who will work with you to draw out your key achievements and skills. We then craft a narrative that presents you as the ideal candidate, optimized with keywords to pass through automated screening systems and catch the eye of a human reader.',
     details: 'Our resume writing service includes a one-on-one consultation to understand your career goals, a professionally written resume tailored to your target industry, keyword optimization for ATS, and a cover letter template. We ensure your resume highlights your unique strengths and achievements.',
-    image: PlaceHolderImages.find(p => p.id === 'resume-writing')!,
+    images: [
+      PlaceHolderImages.find(p => p.id === 'resume-writing')!,
+      galleryImages[0],
+      galleryImages[1],
+    ].filter(p => p) as ImagePlaceholder[],
     deliverables: [
       'A professionally written, keyword-optimized resume (PDF & Word formats)',
       'A tailored and editable cover letter template',
@@ -57,7 +68,11 @@ export const services: Service[] = [
     crucialRole: 'It serves as your digital professional identity, showcasing your expertise, building credibility, and allowing you to connect with industry leaders and potential employers.',
     howWeHelp: "We'll transform your LinkedIn profile into a powerful career tool. Our experts will optimize every section—from your headline to your experience—to ensure you're found by the right people. We will also craft a compelling summary that tells your professional story.",
     details: 'We will optimize your LinkedIn headline, summary, and experience sections with relevant keywords. We will also guide you on how to get meaningful recommendations, grow your network strategically, and engage with content to increase your visibility.',
-    image: PlaceHolderImages.find(p => p.id === 'linkedin-profile')!,
+    images: [
+      PlaceHolderImages.find(p => p.id === 'linkedin-profile')!,
+      galleryImages[2],
+      galleryImages[3],
+    ].filter(p => p) as ImagePlaceholder[],
     deliverables: [
         'A fully optimized LinkedIn profile including headline, summary, and experience.',
         'A professional branding strategy to attract recruiters.',
@@ -83,7 +98,11 @@ export const services: Service[] = [
     crucialRole: 'Effective interview prep allows you to articulate your thoughts clearly, demonstrate your skills with compelling examples using the STAR method, and show genuine interest in the company and role.',
     howWeHelp: "JCC's interview prep provides you with tailored mock interview sessions based on the roles you're targeting. We provide detailed, actionable feedback on your answers, body language, and overall delivery. We'll equip you with frameworks like the STAR method to structure compelling stories about your accomplishments.",
     details: 'Our interview prep includes mock interviews simulating real-world scenarios, personalized feedback on your answers and body language, and strategies for answering common and behavioral questions. We also help you prepare insightful questions to ask the interviewer.',
-    image: PlaceHolderImages.find(p => p.id === 'interview-prep')!,
+    images: [
+      PlaceHolderImages.find(p => p.id === 'interview-prep')!,
+      galleryImages[0],
+      galleryImages[3],
+    ].filter(p => p) as ImagePlaceholder[],
     deliverables: [
         'One-on-one mock interview sessions tailored to your target roles.',
         'Detailed, actionable feedback on your performance.',
@@ -109,7 +128,11 @@ export const services: Service[] = [
     crucialRole: 'This program bridges the gap between theoretical knowledge and practical workplace skills, equipping you with the confidence and competence to navigate your new professional life effectively.',
     howWeHelp: 'JCC provides a structured program to ease your transition. Through workshops and one-on-one coaching, we cover the unwritten rules of the corporate world, from professional email etiquette to navigating office politics. We provide you with a mentor who can guide you through your first months on the job.',
     details: 'Our program covers topics like professional communication, time management, teamwork and collaboration, understanding corporate culture, and setting career goals. We provide practical workshops and one-on-one mentorship.',
-    image: PlaceHolderImages.find(p => p.id === 'campus-to-corporate')!,
+    images: [
+      PlaceHolderImages.find(p => p.id === 'campus-to-corporate')!,
+      galleryImages[1],
+      galleryImages[2],
+    ].filter(p => p) as ImagePlaceholder[],
     deliverables: [
         'A comprehensive understanding of corporate culture and etiquette.',
         'Actionable strategies for effective professional communication.',
@@ -135,7 +158,11 @@ export const services: Service[] = [
     crucialRole: 'Strong presentation skills enable you to influence decisions, inspire action, and establish yourself as a credible and authoritative voice in your field.',
     howWeHelp: "Our presentation skills coaching focuses on both content and delivery. We'll help you structure a compelling narrative, design clean and effective slides, and master your stage presence. Through recorded practice sessions and personalized feedback, you'll learn to deliver your message with impact and confidence.",
     details: 'Our training focuses on structuring a compelling narrative, designing visually appealing slides, mastering body language and vocal delivery, and handling Q&A sessions with poise. You will get to practice and receive constructive feedback in a supportive environment.',
-    image: PlaceHolderImages.find(p => p.id === 'presentation-skills')!,
+    images: [
+      PlaceHolderImages.find(p => p.id === 'presentation-skills')!,
+      galleryImages[3],
+      galleryImages[0],
+    ].filter(p => p) as ImagePlaceholder[],
     deliverables: [
         'A polished presentation deck template.',
         'Techniques for managing speaking anxiety.',
@@ -161,7 +188,11 @@ export const services: Service[] = [
     crucialRole: 'Professional email writing ensures your messages are understood, respected, and acted upon. It is a fundamental skill for building relationships and maintaining efficiency at work.',
     howWeHelp: "JCC's email writing workshop provides practical, hands-on training. We'll teach you proven formulas for writing effective emails for various situations—from a simple request to a complex project update. You'll learn to be clear, concise, and professional, ensuring your emails get the results you want.",
     details: 'We teach you the principles of effective email writing, including subject lines that get noticed, clear and concise body content, appropriate tone and etiquette, and structuring emails for action. We provide templates and exercises for various business scenarios.',
-    image: PlaceHolderImages.find(p => p.id === 'email-writing')!,
+    images: [
+      PlaceHolderImages.find(p => p.id === 'email-writing')!,
+      galleryImages[1],
+      galleryImages[3],
+    ].filter(p => p) as ImagePlaceholder[],
     deliverables: [
         'A set of professional email templates for common business scenarios.',
         'Mastery of tone and etiquette for professional correspondence.',

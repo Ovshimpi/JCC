@@ -41,6 +41,42 @@
       "description": "An overhead shot of a person's hands typing on a sleek, minimalist keyboard, with a cup of artisanal coffee and a stylish notebook nearby on a clean, wooden desk.",
       "imageUrl": "https://images.unsplash.com/photo-1516387938699-a93567ec168e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbWFpbCUyMHdyaXRpbmd8ZW58MHx8fHwxNzY4NTMwNDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "professional writing"
+    },
+    {
+      "id": "service-gallery-1",
+      "description": "Professionals collaborating in a modern office space.",
+      "imageUrl": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWFtd29yayUyMG9mZmljZXxlbnwwfHx8fDE3Njg0OTU1ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teamwork office"
+    },
+    {
+      "id": "service-gallery-2",
+      "description": "A person attending a professional development seminar.",
+      "imageUrl": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3Njg1NDc3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional development"
+    },
+    {
+      "id": "service-gallery-3",
+      "description": "A staircase symbolizing career growth and progression.",
+      "imageUrl": "https://images.unsplash.com/photo-1455849318743-b2233052fcff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjYXJlZXIlMjBncm93dGh8ZW58MHx8fHwxNzY4NTQ3Nzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "career growth"
+    },
+    {
+      "id": "service-gallery-4",
+      "description": "A formal business meeting in a conference room.",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzY4NDYzNzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business meeting"
+    },
+    {
+      "id": "about-gallery-1",
+      "description": "A diverse team of consultants in a bright, modern office.",
+      "imageUrl": "https://images.unsplash.com/photo-1758518729908-d4220a678d81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb25zdWx0YW50JTIwdGVhbXxlbnwwfHx8fDE3Njg1NDc3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "consultant team"
+    },
+    {
+      "id": "about-gallery-2",
+      "description": "A welcoming and professional office environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8b2ZmaWNlJTIwZW52aXJvbm1lbnR8ZW58MHx8fHwxNzY4NTQ3Nzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office environment"
     }
   ]
 }

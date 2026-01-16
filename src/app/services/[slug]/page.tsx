@@ -9,6 +9,7 @@ import Link from 'next/link';
 import { ArrowLeft, CheckCircle2, ChevronRight } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 
 export default function ServiceDetailPage({ params }: { params: { slug: string } }) {
   const service = services.find((s) => s.slug === params.slug);
@@ -67,19 +68,25 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                   
                 </div>
               </FadeIn>
-              <FadeIn delay={200} direction="left" className="md:col-span-2">
-                <Card className="overflow-hidden shadow-lg rounded-lg sticky top-24">
-                  <CardContent className="p-0">
-                    <Image
-                      src={service.image.imageUrl}
-                      alt={service.image.description}
-                      width={600}
-                      height={450}
-                      className="w-full h-auto object-cover"
-                      data-ai-hint={service.image.imageHint}
-                    />
-                  </CardContent>
-                </Card>
+              <FadeIn delay={200} direction="left" className="md:col-span-2 sticky top-24">
+                <Carousel className="w-full rounded-lg overflow-hidden shadow-lg">
+                  <CarouselContent>
+                    {service.images.map((img, index) => (
+                      <CarouselItem key={index}>
+                        <Image
+                          src={img.imageUrl}
+                          alt={img.description}
+                          width={600}
+                          height={450}
+                          className="w-full h-auto object-cover aspect-[4/3]"
+                          data-ai-hint={img.imageHint}
+                        />
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious className="left-4" />
+                  <CarouselNext className="right-4" />
+                </Carousel>
               </FadeIn>
             </div>
             

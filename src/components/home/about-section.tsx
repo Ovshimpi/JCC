@@ -1,10 +1,15 @@
 import { FadeIn } from "@/components/animations/fade-in";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { ImagePlaceholder, PlaceHolderImages } from "@/lib/placeholder-images";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 export default function AboutSection() {
-  const aboutImage = PlaceHolderImages.find(p => p.id === 'office-meeting');
+  const aboutImages = [
+    PlaceHolderImages.find(p => p.id === 'office-meeting'),
+    PlaceHolderImages.find(p => p.id === 'about-gallery-1'),
+    PlaceHolderImages.find(p => p.id === 'about-gallery-2'),
+  ].filter(p => p) as ImagePlaceholder[];
 
   return (
     <section id="about" className="w-full py-20 md:py-24 lg:py-32 bg-card/50">
@@ -33,20 +38,24 @@ export default function AboutSection() {
               </div>
             </FadeIn>
             <FadeIn delay={200} direction="left" className="md:col-span-2">
-              <Card className="overflow-hidden shadow-lg rounded-lg">
-                <CardContent className="p-0">
-                  {aboutImage && (
-                    <Image
-                      src={aboutImage.imageUrl}
-                      alt={aboutImage.description}
-                      width={600}
-                      height={400}
-                      className="w-full h-auto object-cover"
-                      data-ai-hint={aboutImage.imageHint}
-                    />
-                  )}
-                </CardContent>
-              </Card>
+              <Carousel className="rounded-lg overflow-hidden shadow-lg">
+                <CarouselContent>
+                  {aboutImages.map((img, index) => (
+                    <CarouselItem key={index}>
+                        <Image
+                          src={img.imageUrl}
+                          alt={img.description}
+                          width={600}
+                          height={400}
+                          className="w-full h-auto object-cover aspect-[3/2]"
+                          data-ai-hint={img.imageHint}
+                        />
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious className="left-4" />
+                <CarouselNext className="right-4" />
+              </Carousel>
             </FadeIn>
           </div>
       </div>

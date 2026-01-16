@@ -9,7 +9,7 @@ export default function CallButton({ phoneNumber }: { phoneNumber: string }) {
   return (
     <Link
       href={callLink}
-      className="fixed bottom-24 right-8 z-50 bg-primary text-primary-foreground p-4 rounded-full shadow-lg hover:bg-primary/90 transition-colors flex items-center justify-center"
+      className="fixed bottom-28 right-8 z-50 bg-primary text-primary-foreground p-4 rounded-full shadow-lg hover:bg-primary/90 transition-colors flex items-center justify-center"
       aria-label="Call us"
     >
       <Phone className="h-8 w-8" />

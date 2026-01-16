@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { ThemeProvider } from '@/components/theme-provider';
 import WhatsappButton from '@/components/layout/whatsapp-button';
+import ScrollToTopButton from '@/components/layout/scroll-to-top-button';
 
 export const metadata: Metadata = {
   title: 'JCC Career Consultancy: Chart Your Course to Career Excellence',
@@ -33,6 +34,7 @@ export default function RootLayout({
         >
           {children}
           <WhatsappButton phoneNumber="+916232586854" />
+          <ScrollToTopButton />
           <Toaster />
         </ThemeProvider>
       </body>

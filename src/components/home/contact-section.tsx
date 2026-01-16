@@ -40,9 +40,17 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold font-body">Phone</h3>
-                    <p className="text-foreground/80">Give us a call during business hours.</p>
-                    <a href="tel:+917987376854" className="text-primary hover:underline">
-                      +91 7987376854
+                    <p className="text-foreground/80">Give us a call or send a message.</p>
+                    <a href="tel:+916232586854" className="text-primary hover:underline block mt-2">
+                      +91 6232586854 (Calling)
+                    </a>
+                    <a
+                      href="https://wa.me/917987376854"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline block mt-1"
+                    >
+                      +91 7987376854 (WhatsApp)
                     </a>
                   </div>
                 </div>

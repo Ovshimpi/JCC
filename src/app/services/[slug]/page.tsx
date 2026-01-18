@@ -94,11 +94,9 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
               <div className="mt-16 space-y-10">
                 <div className="space-y-4">
                   <h2 className="font-headline text-center text-3xl font-semibold">Our Process</h2>
-                  <div className="relative flex flex-col md:flex-row justify-between items-center gap-8 pt-4">
-                     <div className="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-border -translate-y-1/2"></div>
+                  <div className="flex flex-col md:flex-row justify-center items-start gap-12 pt-4">
                       {service.process.map((item, index) => (
-                        <div key={index} className="relative flex-1 flex flex-col items-center text-center max-w-xs">
-                          <div className="absolute top-1/2 left-1/2 w-0.5 h-full bg-border -translate-x-1/2 md:hidden"></div>
+                        <div key={index} className="flex-1 flex flex-col items-center text-center max-w-xs">
                           <div className="relative z-10 flex items-center justify-center w-12 h-12 rounded-full bg-primary text-primary-foreground font-bold text-xl mb-3 border-4 border-background">
                             {item.step}
                           </div>

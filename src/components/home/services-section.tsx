@@ -23,7 +23,7 @@ function ServiceCard({ icon, title, description, slug }: ServiceCardProps) {
         <CardContent className="pb-8 flex flex-col flex-grow">
           <p className="text-center text-foreground/80 mb-6 flex-grow">{description}</p>
           <div className="text-center mt-auto">
-            <div className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background h-10 px-4 py-2 bg-gradient-to-r from-amber-500 to-yellow-700 text-primary-foreground transition-opacity">
+            <div className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background h-10 px-4 py-2 bg-primary text-primary-foreground transition-colors hover:bg-primary/90">
               Learn More <ArrowRight className="ml-2 h-4 w-4" />
             </div>
           </div>

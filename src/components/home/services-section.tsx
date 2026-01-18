@@ -1,9 +1,10 @@
-import { Briefcase, FileText, Linkedin, Mail, Presentation, Users } from "lucide-react";
+import { Briefcase, FileText, Linkedin, Mail, Presentation, Users, ArrowRight } from "lucide-react";
 import { FadeIn } from "@/components/animations/fade-in";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import type { ReactElement } from "react";
 import Link from "next/link";
 import { services } from "@/lib/services";
+import { Button } from "@/components/ui/button";
 
 interface ServiceCardProps {
   icon: ReactElement;
@@ -14,17 +15,22 @@ interface ServiceCardProps {
 
 function ServiceCard({ icon, title, description, slug }: ServiceCardProps) {
   return (
-    <Link href={`/services/${slug}`} className="block h-full">
-      <Card className="h-full transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl bg-card hover:bg-primary/10">
-        <CardHeader className="flex flex-col items-center text-center gap-4 pt-8">
-          {icon}
-          <h3 className="font-headline text-2xl font-bold">{title}</h3>
-        </CardHeader>
-        <CardContent className="pb-8">
-          <p className="text-center text-foreground/80">{description}</p>
-        </CardContent>
-      </Card>
-    </Link>
+    <Card className="h-full transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl bg-card flex flex-col">
+      <CardHeader className="flex flex-col items-center text-center gap-4 pt-8">
+        {icon}
+        <h3 className="font-headline text-2xl font-bold">{title}</h3>
+      </CardHeader>
+      <CardContent className="pb-8 flex flex-col flex-grow">
+        <p className="text-center text-foreground/80 mb-6 flex-grow">{description}</p>
+        <div className="text-center">
+            <Button asChild className="bg-gradient-to-r from-amber-500 to-yellow-700 text-primary-foreground hover:opacity-90 transition-opacity">
+                <Link href={`/services/${slug}`}>
+                    Learn More <ArrowRight className="ml-2" />
+                </Link>
+            </Button>
+        </div>
+      </CardContent>
+    </Card>
   );
 }
 

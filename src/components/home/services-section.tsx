@@ -4,7 +4,6 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import type { ReactElement } from "react";
 import Link from "next/link";
 import { services } from "@/lib/services";
-import { Button } from "@/components/ui/button";
 
 interface ServiceCardProps {
   icon: ReactElement;
@@ -15,24 +14,25 @@ interface ServiceCardProps {
 
 function ServiceCard({ icon, title, description, slug }: ServiceCardProps) {
   return (
-    <Card className="h-full transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl bg-card flex flex-col">
-      <CardHeader className="flex flex-col items-center text-center gap-4 pt-8">
-        {icon}
-        <h3 className="font-headline text-2xl font-bold">{title}</h3>
-      </CardHeader>
-      <CardContent className="pb-8 flex flex-col flex-grow">
-        <p className="text-center text-foreground/80 mb-6 flex-grow">{description}</p>
-        <div className="text-center">
-            <Button asChild className="bg-gradient-to-r from-amber-500 to-yellow-700 text-primary-foreground hover:opacity-90 transition-opacity">
-                <Link href={`/services/${slug}`}>
-                    Learn More <ArrowRight className="ml-2" />
-                </Link>
-            </Button>
-        </div>
-      </CardContent>
-    </Card>
+    <Link href={`/services/${slug}`} className="block h-full group">
+      <Card className="h-full transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl bg-card flex flex-col group-hover:bg-primary/5">
+        <CardHeader className="flex flex-col items-center text-center gap-4 pt-8">
+          {icon}
+          <h3 className="font-headline text-2xl font-bold">{title}</h3>
+        </CardHeader>
+        <CardContent className="pb-8 flex flex-col flex-grow">
+          <p className="text-center text-foreground/80 mb-6 flex-grow">{description}</p>
+          <div className="text-center mt-auto">
+            <div className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background h-10 px-4 py-2 bg-gradient-to-r from-amber-500 to-yellow-700 text-primary-foreground transition-opacity">
+              Learn More <ArrowRight className="ml-2 h-4 w-4" />
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    </Link>
   );
 }
+
 
 export default function ServicesSection() {
   const serviceIcons: { [key: string]: ReactElement } = {
